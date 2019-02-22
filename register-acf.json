@@ -20,6 +20,20 @@
             "prepend": "",
             "append": "",
             "maxlength": ""
+        },
+        {
+            "key": "field_417cb3c0e8e54fdfbebd65c78a163a87",
+            "label": "Items",
+            "name": "my_repeater",
+            "type": "repeater",
+            "sub_fields": [
+                {
+                    "key": "field_7304762cdf13408a88cec59eec4000b9",
+                    "label": "Another",
+                    "type": "text",
+                    "name": "my_text"
+                }
+            ]
         }
     ],
     "location": [
@@ -27,7 +41,7 @@
             {
                 "param": "block",
                 "operator": "==",
-                "value": "acf\/form-cta"
+                "value": "acf\/blockslug"
             }
         ]
     ],

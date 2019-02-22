@@ -29,9 +29,9 @@ function my_agf_blockslug_init() {
 
     if( function_exists('acf_register_block') ) {
 		acf_register_block(array(
-		    'name'				=> 'form-cta',
-		    'title'				=> __('Form CTA'),
-		    'description'		=> __('A custom form CTA block.'),
+		    'name'				=> 'blockslug',
+		    'title'				=> __('Block Slug'),
+		    'description'		=> __('A custom blockslug cta block.'),
 		    'render_callback'	=> 'agf_blockslug_output_callback',
 		    'category'			=> 'layout',
 		    'icon'				=> 'editor-table',
