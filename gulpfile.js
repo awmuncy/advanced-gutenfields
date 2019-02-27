@@ -14,6 +14,7 @@ gulp.task('zip', function () {
     '!./package.json', 
     '!./package-lock.json',
     '!./{src,src/**/*}', 
+    '!./{output,output/**/*}', 
     `!./${filename}`
   ],{base: './'})
     .pipe(zip(filename))
